@@ -1,0 +1,57 @@
+.timeBtn {
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+    transition: background-color 0.3s;
+}
+
+.timeBtn:hover {
+    background-color: #e64a19; 
+}
+
+#timeDisplay {
+    font-size: 75px;
+    color: white; 
+    font-family: consolas, monospace;
+}
+
+#timeContainer {
+    text-align: center;
+    border: 3px solid #444;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    background-image: url('./furniture/imago/thomas-bormans-JsTmUnHdVYQ-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px; 
+    margin: 0 auto; 
+}
+
+#lapContainer {
+    margin-top: 20px;
+    color: white; 
+    font-family: consolas, monospace;
+}
+
+#lapBtn {
+    background-color: #f44336; 
+    transition: background-color 0.3s;
+}
+
+#lapBtn:hover {
+    background-color: #c62828; 
+}
+
+#resetBtn {
+    background-color: #f44336; 
+    transition: background-color 0.3s;
+}
+
+#resetBtn:hover {
+    background-color: #c62828; 
+}
